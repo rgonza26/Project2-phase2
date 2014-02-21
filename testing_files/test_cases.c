@@ -3,7 +3,7 @@
 	int main(int argc, char *argv[]){
 		char choice;
 
-		char* test1_argv = "README.md";
+		char* test1_argv = "lister.c";
 		char* test2_argv = "nonexistent_file.txt";
 
 
