@@ -12,7 +12,7 @@
         //Get date/time, Open File
         file = init_lister(argv[1], source_file_name, date);
         
-        //Read/Print lines
+        //Read then print lines in a loop until get_source_line returns false
         while (get_source_line(file, source_file_name, date));
         
         return 0;
@@ -22,7 +22,7 @@
 
     FILE *init_lister(const char *name, char source_file_name[], char dte[]) {
         
-      //local Variables
+      	//local Variables
         time_t timer;
         FILE *file = NULL;
         
@@ -51,8 +51,9 @@
         static int line_number = 0;
         
         //Reached end of file
-        if (fgets(source_buffer, MAX_SOURCE_LINE_LENGTH, src_file) == NULL)
-            return FALSE;
+        if (fgets(source_buffer, MAX_SOURCE_LINE_LENGTH, src_file) == NULL){    
+		return FALSE;
+	}
         
         //line numner +1
         line_number++;
