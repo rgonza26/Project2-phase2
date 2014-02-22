@@ -1,3 +1,7 @@
+//Group4:
+//	Roberto Gonzalez[rgonza26]
+//	Peter Johnson	[ptjohns2]
+
 #include "common.h"
 
 static void print_page_header(char source_name[], char date[]);

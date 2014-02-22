@@ -1,3 +1,7 @@
+//Group4:
+//	Roberto Gonzalez[rgonza26]
+//	Peter Johnson	[ptjohns2]
+
 #ifndef CSE220_project2_common_h
 #define CSE220_project2_common_h
 
