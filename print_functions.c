@@ -46,5 +46,5 @@ static void print_page_header(char source_name[], char date[]){
 	page_number++;
     
 	//Print Header
-	printf("Page:\t%d\t%s\t%s\n", page_number, source_name, date);
+	printf("Page\t%d\t%s\t%s\n", page_number, source_name, date);
 }
